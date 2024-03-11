@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        body{
+            margin-left: 90px;
+        }
+        .container, .inner{
+            width: 150px;
+            height: 150px;
+        }
+        .container{
+            border: 2px solid blueviolet;
+            background-color: aqua;
+        }
+        .inner{
+            border: 2px solid red;
+            background-color: blanchedalmond;
+            /* transform: scale(0.5) rotate(45deg) translateX(30px); */
+        }
+        .inner:hover{
+            transform: scale(0.5) rotate(45deg) translateX( 20px);
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Explore Transform and translate</h2>
+    <div class="container">
+        <div class="inner">Inner</div>
+    </div>
+    <div class="container">
+        <div class="inner">Inner</div>
+    </div>
+    <div class="container">
+        <div class="inner">Inner</div>
+    </div>
+</body>
+</html>

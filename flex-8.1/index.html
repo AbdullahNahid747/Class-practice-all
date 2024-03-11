@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex Documents</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 5px;
+        }
+        .box{
+            background-color: aqua; 
+            border: 2px solid tomato;
+            border-radius: 10px;
+            
+
+        }
+        @media screen and (max-width: 576px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="section-1">
+        <h1 class="h1">The flex Documents
+            <div class="container">
+                <div class="box">
+                    <h2>The flex box</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum natus, laborum animi, quis et minus excepturi illo debitis, quasi vel omnis delectus cum necessitatibus odit ad veritatis autem! Vel, consectetur!</p>
+                </div>
+               <div class="box">
+                <h2>The flex box</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti molestiae veritatis totam voluptatum tenetur modi voluptatibus cum numquam asperiores? Nihil unde voluptates incidunt error, maxime blanditiis tempora quisquam magni laboriosam!</p>
+               </div>
+            </div>
+        </h1>
+    </section>
+</body>
+</html>

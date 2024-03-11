@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 200px) 50px 50px;
+            gap: 20px;
+        }
+        .box{
+            background-color: gray
+        }
+        #box-1{
+            grid-row: span 5;
+        }
+        #box-11, #box-12{
+            grid-column: span 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box-1">Bix - 1</div>
+        <div class="box" id="box-2">Bix - 2</div>
+        <div class="box" id="box-3">Bix - 3</div>
+        <div class="box" id="box-4">Bix - 4</div>
+        <div class="box" id="box-5">Bix - 5</div>
+        <div class="box" id="box-6">Bix - 6</div>
+        <div class="box" id="box-7">Bix - 7</div>
+        <div class="box" id="box-8">Bix - 8</div>
+        <div class="box" id="box-9">Bix - 9</div>
+        <div class="box" id="box-10">Bix - 10</div>
+        <div class="box" id="box-11">Bix - 11</div>
+        <div class="box" id="box-12">Bix - 12</div>
+    </div>
+</body>
+</html>

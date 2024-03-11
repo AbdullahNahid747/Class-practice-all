@@ -1,0 +1,32 @@
+.nono{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgb(41, 197, 197)
+    
+}
+.nonono{
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+    /* padding: 10px 20px 30px 40px ; */
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(57, 33, 145);
+}
+li{
+    font-size: small;
+    color: rgb(35, 70, 71);
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+.mm{
+    margin: 20px;
+    border: 10px solid rgb(240, 139, 124);
+    border-radius: 10px 40px 20px;
+    text-align: center;
+    box-shadow: 10px 5px 10px 5px gold;
+    
+}

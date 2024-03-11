@@ -1,0 +1,29 @@
+.hadar{
+    height: 300px;
+    /* background-color: bisque; */
+    background-image: url("desktop-wallpaper-hamburger-fast-food-food-bottle-vegetables.jpg");
+    /* background-image: url("../hot-delicious-kacchi-biryani-dish-260nw-2328685737.webp"); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 200px; */
+}
+h2{
+    color: rgb(91, 190, 96);
+    font-family: 'Courier New', Courier, monospace;
+}
+.blog{
+    text-align: center;
+    margin: 40px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 10px rgb(129, 28, 121);
+}
+.ss{
+    /* display: none; */
+    /* visibility: hidden; */
+} 
+.volit{
+    border: 2px solid purple;
+}

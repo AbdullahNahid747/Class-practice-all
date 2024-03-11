@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricketr height</title>
+
+    <style>
+        .field{
+            width: 1800px;
+            height: 1000px;
+            margin: 0 auto;
+            border: 2px solid skyblue;
+        }
+        .bat{
+            transition: tranform 0.1s;
+        }
+        .ball{
+            margin-bottom: 100px;
+            margin: 0 auto;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+            bottom: 450px;
+            right: 100px;
+            transition: transform 1s ease-out;
+        }
+    
+        .field:hover .bat{
+            transform: rotate(-60deg);
+            transform-origin: top right;
+        }
+        .field:hover .ball{
+            transform: translateX(500px);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="field"><img class="bat" src="cricket-bat_78370-428.avif" alt=""></div>
+    <div class="ball"></div>
+</body>
+</html>

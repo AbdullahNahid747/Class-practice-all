@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storytelling Contest Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 16px;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 16px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Storytelling Contest Feedback Form</h1>
+
+    <form action="submit_feedback.php" method="post">
+        <label for="story">Share Your Story:</label>
+        <textarea id="story" name="story" rows="8" cols="50" placeholder="Write your story here..." required></textarea>
+
+        <!-- Add dropdown menu for rating -->
+        <label for="rating">Rate the Story:</label>
+        <select id="rating" name="rating" required>
+            <option value="" disabled selected>Select Rating</option>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+        </select>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+</body>
+</html>

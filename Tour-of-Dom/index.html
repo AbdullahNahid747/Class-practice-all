@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style/style.css">
+
+    <style>
+        #fruits-title{
+            color: black;
+        }
+        .important-places{
+            color: rgb(95, 121, 69);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Welcome to My Don
+        </h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique mollitia ex esse corrupti et tempore vitae dolore quidem voluptatum obcaecati, expedita excepturi ad totam aliquid odit impedit in, quia officiis. Dolore accusantium optio culpa consequatur similique sunt enim assumenda! Harum blanditiis molestias, ipsum neque quae temporibus necessitatibus tenetur odio labore!
+        </p>
+    </header>
+    <main id="main-container">
+        <section>
+            <h1>
+                My Awesome Dom de Baba
+            </h1>
+            <ul>
+                <li>Abdullah</li>
+                <li>Nahid</li>
+                <li>Nasrin</li>
+                <li>Naim</li>
+            </ul>
+        </section>
+        <section>
+            <h1 id="fruits-title">
+                Fruts I Like
+            </h1>
+            <ul>
+                <li>Apple</li>
+                <li>Mansgo</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+            </ul>
+        </section>
+        <section id="places-container" class="large-text">
+            <h1 id="Places-title">
+                Places I like To Visit
+            </h1>
+            <ul id="places-list">
+                <li class="important-places">Sundarban</li>
+                <li class="important-places">Bandarban</li>
+                <li class="important-places">Kuakata</li>
+                <li>Shylet</li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/dom.js"></script>
+    <script src="js/append.js"></script>
+    <script src="js/styleinJS.js"></script>
+    <script>
+        //         const student = {
+        //     name: "Abdukllah",
+        //      ID: 55,
+        //      study: function (time){
+        //         console.log(time, 'study kortese')
+        //      }
+        // }
+        // console.log("adding Js inside the html file")
+
+        const liCollection = document.getElementsByTagName("li");
+        // console.log(liCollection);
+        for(const li of liCollection){
+            console.log(li.innerText);
+        }
+
+        const  allHeading = document.getElementsByTagName("h1");
+        for(const h1 of allHeading){
+            console.log(h1.innerText);
+        }
+        
+        const places = document.getElementsByClassName("important-places");
+        for(const placs of places){
+            console.log(places.innerText);
+        } 
+    </script>
+</body>
+</html>
